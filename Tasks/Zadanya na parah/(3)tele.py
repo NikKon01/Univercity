@@ -24,7 +24,7 @@ def get_contact(dict, names, num):
     print("Контакт добавлен")
     return dict
 
-def remove_contact (dict, names)
+def remove_contact (dict, names):
     if not (names in dict):
         print("Нет такого номера!")
         return False
@@ -48,6 +48,18 @@ i = 0
 dict = {}
 
 while True:
+    i = int(input("Введите команду"))
+    if i == 1:
+        get_contact(dict, get_name(), get_num())
+    if i == 2:
+        remove_contact(dict, get_name())
+    if i == 3:
+        show_dict(dict)
+    if i == 4:
+        change_num(dict, get_name())
+    if i == 5:
+        print("Завершение работы")
+        break
 
 
 
