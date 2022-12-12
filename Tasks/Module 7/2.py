@@ -1,13 +1,10 @@
-n = int(input())
-words = {}
-
-for i in range(n):
+N = int(input())
+w = {}
+for i in range(N):
     line = input().split()
-    words[line[0]] = line[1]
-
-requireValue = input()
-
-for i in words:
-    if words[i] == requireValue:
+    w[line[0]] = line[1]
+rv = input()
+for i in w:
+    if w[i] == rv:
         print(i)
         break
