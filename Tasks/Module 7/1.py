@@ -1,10 +1,7 @@
-str = input().split()
-words = {}
-
-for i in range(len(str)):
-    line = input().split()
-
-    if not str[i] in words:
-        words[str[i]] = 0
-    print(words[str[i]])
-    words[str[i]] += 1
+lst = input().split()
+w = {}
+for i in range(len(lst)):
+    if not lst[i] in w:
+        w[lst[i]] = 0
+    print(w[lst[i]], end=' ')
+    w[lst[i]] += 1
