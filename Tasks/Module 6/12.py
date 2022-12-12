@@ -1,4 +1,4 @@
-str = input()
-first = str.find('h')
-last = str.rfind('h')
-print(f'{str[:first+1]}{str[first+1:last].replace("h", "H")}{str[last:]}')
+lst = input()
+first = lst.find('h')
+last = lst.rfind('h')
+print(f'{lst[:first+1]}{lst[first+1:last].replace("h", "H")}{lst[last:]}')

@@ -1,4 +1,4 @@
-str = input()
-first = str.find('h')
-last = str.rfind('h')
-print(f'{str[:first]}{str[last:first:-1]}{str[last:]}')
+lst = input()
+first = lst.find('h')
+last = lst.rfind('h')
+print(f'{lst[:first]}{lst[last:first:-1]}{lst[last:]}')

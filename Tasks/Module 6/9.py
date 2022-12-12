@@ -1,3 +1,3 @@
-str = input()
-lenHalf = round(len(str)/2)
-print(f'{str[lenHalf:]}{str[:lenHalf]}')
+lst = input()
+lenHalf = round(len(lst)/2)
+print(f'{lst[lenHalf:]}{lst[:lenHalf]}')
