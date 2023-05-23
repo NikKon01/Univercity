@@ -10,7 +10,6 @@ class Sphere:
 
     def get_square(self):
         return 4 * 3.14159265359 * self.radius ** 2
-
     def get_radius(self):
         return self.radius
 
