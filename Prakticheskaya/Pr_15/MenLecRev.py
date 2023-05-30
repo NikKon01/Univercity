@@ -133,7 +133,7 @@ print(f"Лектор 2: {lecturer2}")
 print(f"Студент 1: {student1}")
 print(f"Студент 2: {student2}")
 
-print(f"Лектор ведет пары у студента: {lecturer1.__bool__(student1)}")
+print(f"Лектор ведет пары студента: {lecturer1.__bool__(student1)}")
 
 def avg_grade_hw(person_list, course_name):
     grade_sum = 0
